@@ -1,0 +1,1 @@
+*.log, __pycache__/, *.safetensors
