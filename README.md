@@ -7,5 +7,5 @@ Note: Due to GitHub's size constraints, the large binary artifacts, compiled cac
 Before running the local data loader, ensure you have downloaded the core initialization weights.
 
 1. Go to the **[Releases](https://github.com/born5149/local-telemetry-pipeline/releases)** tab.
-2. Download `tensor_init_weights_v1.pt` and place it in the `/tests` directory.
+2. Download tensor_init_weights_v1.bin and place it in the /tests directory.
 3. Execute the pipeline.
