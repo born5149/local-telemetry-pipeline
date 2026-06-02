@@ -4,8 +4,9 @@ Note: Due to GitHub's size constraints, the large binary artifacts, compiled cac
 
 ## Usage
 
-Before running the local data loader, ensure you have downloaded the core initialization weights.
+Before running the local data loader, ensure you have downloaded the core initialization weights and the latest training deltas.
 
-1. Go to the **[Releases](https://github.com/born5149/local-telemetry-pipeline/releases)** tab.
-2. Download tensor_init_weights_v1.bin and place it in the /tests directory.
-3. Execute the pipeline.
+1. Go to the [Releases](../../releases) tab.
+2. Download `tensor_init_weights_v1.bin` (core model) and the latest `tensor_weight_delta_vX.bin` (recent updates).
+3. Place both artifacts in the `/tests` directory.
+4. Execute the pipeline. The script will automatically merge the deltas with the base weights during initialization.
